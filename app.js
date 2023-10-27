@@ -26,7 +26,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({
-    mongoUrl: process.env.MONGODB_URI
+    mongoUrl:'mongodb://localhost:27017/mydb'
   }),
   //cookie: { maxAge: new Date ( Date.now() + (3600000) ) } 
 }));
