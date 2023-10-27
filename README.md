@@ -60,7 +60,7 @@ npm install
 
 This command will install all the necessary dependencies listed in the package.json file.
 
-# unning the Application
+# Running the Application
 To run the application, use the following command:
 bash
 npm start
